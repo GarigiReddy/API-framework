@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[==connection successful==]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_2402]]>
+    </line>
+    <line>
+      <![CDATA[connection closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7916" started-at="2022-08-11T11:26:57 IST" finished-at="2022-08-11T11:27:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7916" started-at="2022-08-11T11:26:57 IST" finished-at="2022-08-11T11:27:05 IST">
+      <class name="EndtoEndScenarios.CreateprojectAndverifyinthedatabaseTest">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:EndtoEndScenarios.CreateprojectAndverifyinthedatabaseTest@1e7c7811]" name="bsConfig" is-config="true" duration-ms="1414" started-at="2022-08-11T11:26:56 IST" finished-at="2022-08-11T11:26:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[==connection successful==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="Createproject()[pri:0, instance:EndtoEndScenarios.CreateprojectAndverifyinthedatabaseTest@1e7c7811]" name="Createproject" duration-ms="7871" started-at="2022-08-11T11:26:57 IST" finished-at="2022-08-11T11:27:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_2402]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createproject -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:EndtoEndScenarios.CreateprojectAndverifyinthedatabaseTest@1e7c7811]" name="asConfig" is-config="true" duration-ms="20" started-at="2022-08-11T11:27:05 IST" finished-at="2022-08-11T11:27:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[connection closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- EndtoEndScenarios.CreateprojectAndverifyinthedatabaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
